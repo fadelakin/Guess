@@ -12,6 +12,9 @@ while (1) {
 	} elsif ($guess < $secret) {
 		print "Too small. Try again!\n";
 		last;
+	} elsif ($guess == $secret) {
+		print "That was it!\n"
+		last;
 	} else {
 		print "Too large. Try again!\n";
 	}
