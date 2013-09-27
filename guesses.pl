@@ -5,8 +5,6 @@ use warnings;
 
 my $secret = int(1 + rand 100);
 
-# You may uncomment this line during debugging
-# say "Don't tell anyone, but the secret number is $secret.\n";
 
 while (1) {
 	print "Please enter a guess from 1 to 100: ";
